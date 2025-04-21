@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Serenity Care Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Serenity<span>Care</span></h1>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're here to answer any questions you may have about our services, facilities, or care options. Reach out to us today.</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card animate-on-scroll">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Our Location</h3>
+                    <p>123 Care Lane, Serenity City<br>SC 12345, United States</p>
+                </div>
+                
+                <div class="info-card animate-on-scroll">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Phone Number</h3>
+                    <p>Main: (123) 456-7890<br>Support: (123) 456-7891</p>
+                </div>
+                
+                <div class="info-card animate-on-scroll">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Address</h3>
+                    <p>info@serenitycarehome.com<br>support@serenitycarehome.com</p>
+                </div>
+                
+                <div class="info-card animate-on-scroll">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 1:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-content animate-on-scroll">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and our team will get back to you as soon as possible.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address*</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject*</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">I consent to having this website store my submitted information so they can respond to my inquiry.</label>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                    
+                    <div id="formSuccess" class="form-success" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Thank You!</h3>
+                        <p>Your message has been sent successfully. We'll get back to you shortly.</p>
+                    </div>
+                </div>
+                
+                <div class="form-image animate-on-scroll">
+                    <img src="images/contact-image.jpg" alt="Caring staff at Serenity Care Home">
+                    <div class="image-overlay">
+                        <h3>We're Here to Help</h3>
+                        <p>Our dedicated team is ready to answer all your questions and provide the information you need.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <div class="map-content animate-on-scroll">
+                <h2>Find Us</h2>
+                <p>We're conveniently located in a peaceful neighborhood with easy access to medical facilities and community amenities.</p>
+                
+                <div class="location-details">
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Care Lane, Serenity City, SC 12345</p>
+                    <p><i class="fas fa-directions"></i> Get directions: <a href="https://maps.google.com" target="_blank">Google Maps</a></p>
+                </div>
+                
+                <div class="transportation">
+                    <h3>Transportation Options</h3>
+                    <p><i class="fas fa-bus"></i> <strong>Public Transit:</strong> Bus routes 10, 15, and 22 stop within a block of our facility.</p>
+                    <p><i class="fas fa-car"></i> <strong>Parking:</strong> Free visitor parking is available on-site.</p>
+                </div>
+            </div>
+            
+            <div class="map-container animate-on-scroll">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA0JzQ3LjIiTiA3NMKwMDAnMTIuOSJX!5e0!3m2!1sen!2sus!4v1625761105578!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title text-center">Frequently Asked Questions</h2>
+            <p class="section-subtitle text-center">Find answers to common questions about contacting and visiting us.</p>
+            
+            <div class="faq-container">
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <h3>How quickly can I expect a response to my inquiry?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We typically respond to all inquiries within 24-48 business hours. For urgent matters, we recommend calling our main office directly.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <h3>Can I schedule a tour of your facilities?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we encourage prospective residents and their families to tour our facilities. You can schedule a tour using our contact form, by phone, or by email.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <h3>Is there a waiting list for new residents?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Availability varies throughout the year. Please contact our admissions team for current information about room availability and any potential waiting periods.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <h3>What information should I prepare before contacting you?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Having information about care needs, medical conditions, insurance details, and preferred timeline for admission can help us provide more specific information during initial consultations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Learn More?</h2>
+            <p>Schedule a personal consultation with our care team to discuss your specific needs and how we can help provide the best care for your loved one.</p>
+            <a href="tel:+1234567890" class="btn-primary">Call (123) 456-7890</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Serenity Care Home</h3>
+                    <p>Providing compassionate, high-quality care in a comfortable and safe environment.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Care Lane, Serenity City, SC 12345</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@serenitycarehome.com</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates and information.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Serenity Care Home. All rights reserved.</p>
+                <p>
+                    <a href="#">Privacy Policy</a> | 
+                    <a href="#">Terms of Service</a> | 
+                    <a href="#">Sitemap</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // JavaScript for contact page functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animate elements when they come into view
+            const animateElements = document.querySelectorAll('.animate-on-scroll');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            animateElements.forEach(element => {
+                observer.observe(element);
+            });
+            
+            // Contact form submission
+            const contactForm = document.getElementById('contactForm');
+            const formSuccess = document.getElementById('formSuccess');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Simulate form submission (replace with actual form submission)
+                    setTimeout(function() {
+                        contactForm.style.display = 'none';
+                        formSuccess.style.display = 'block';
+                    }, 1000);
+                });
+            }
+            
+            // FAQ accordion functionality
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                const answer = item.querySelector('.faq-answer');
+                const icon = item.querySelector('.faq-toggle i');
+                
+                question.addEventListener('click', () => {
+                    // Toggle current item
+                    answer.style.maxHeight = answer.style.maxHeight ? null : answer.scrollHeight + 'px';
+                    icon.classList.toggle('fa-plus');
+                    icon.classList.toggle('fa-minus');
+                    
+                    // Close other items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            const otherAnswer = otherItem.querySelector('.faq-answer');
+                            const otherIcon = otherItem.querySelector('.faq-toggle i');
+                            
+                            otherAnswer.style.maxHeight = null;
+                            otherIcon.classList.remove('fa-minus');
+                            otherIcon.classList.add('fa-plus');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
